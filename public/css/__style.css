@@ -1,0 +1,437 @@
+@import "fonts/fonts.css";
+body {
+  margin: 0;
+  padding: 0;
+}
+#header {
+  width: 100%;
+  display: flex;
+  background-color: #014492;
+}
+#header #menu {
+  background-color: #014492;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+#header #menu .self {
+  display: flex;
+  background-color: #014492;
+}
+#header #menu .user {
+  display: flex;
+  background-color: #014492;
+}
+#header #menu .item_menu {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'montserratregular';
+}
+#header #logo {
+  width: 260px;
+  height: 100px;
+  background-color: #fff;
+  background-image: url("img/logo.png");
+}
+.btn {
+  width: 250px;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  display: flex;
+}
+.btn .text {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #fff;
+  font-family: 'montserratregular';
+}
+.btn .square {
+  width: 40px;
+  height: 40px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: #fff;
+}
+#slider {
+  width: 100%;
+  height: 80vh;
+  background-image: url("img/top.png");
+  background-size: cover;
+  background-color: transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#slider .text_description {
+  flex: 1;
+  color: #fff;
+  background-color: transparent;
+  font-family: 'montserratregular';
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#slider .text_description .content {
+  width: 85%;
+}
+#slider .text_description .content .in {
+  background-color: transparent;
+}
+#slider .text_description .content .in .sumilla {
+  font-size: 14px;
+  letter-spacing: 3px;
+  display: flex;
+}
+#slider .text_description .content .in .sumilla .mini-linea {
+  width: 30px;
+  height: 1px;
+  margin-top: 6px;
+  display: inline;
+  display: block;
+  background-color: #fff;
+}
+#slider .text_description .content .in .sumilla .texto {
+  margin-left: 10px;
+}
+#slider .text_description .content .in span {
+  display: block;
+}
+#slider .text_description .content .in .main_message {
+  font-size: 55px;
+  font-family: 'montserratbold';
+  margin-top: 35px;
+}
+#slider .text_description .content .in .btn {
+  margin-top: 100px;
+}
+#slider .gray_square_bottom {
+  width: 100%;
+  height: 140px;
+  background-color: transparent;
+  bottom: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+#slider .gray_square_bottom .slider_menu {
+  width: 85%;
+  height: 140px;
+  background-color: transparent;
+}
+#slider .gray_square_bottom .slider_menu .arrows {
+  width: 140px;
+  height: 70px;
+  background-color: #f00;
+  display: flex;
+  justify-content: space-around;
+}
+#slider .gray_square_bottom .slider_menu .arrows .arrow_left {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+#slider .gray_square_bottom .slider_menu .arrows .arrow_right {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+}
+#slider .gray_square_bottom .slider_menu .menu {
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#slider .gray_square_bottom .slider_menu .menu .item a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'montserratregular';
+  font-size: 18px;
+}
+#slider .gray_square_bottom .slider_menu .menu .item .linea_azul {
+  width: 40px;
+  height: 3px;
+  margin-top: 5px;
+  background-color: #014492;
+}
+#benficios {
+  width: 100%;
+  padding-top: 70px;
+  text-align: center;
+  background-image: url("img/gradient.png");
+  background-repeat-y: no-repeat;
+}
+#benficios .linea_azul {
+  width: 40px;
+  height: 3px;
+  background-color: #014492;
+  margin: 0 auto;
+}
+#benficios .sumilla {
+  color: #939393;
+  font-family: 'montserratregular';
+  font-size: 12px;
+}
+#benficios h1 {
+  font-family: 'montserratbold';
+  line-height: 10px;
+}
+#benficios .benficios_wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 410px;
+  margin-top: 20px;
+}
+#benficios .benficios_wrapper .benficios_content {
+  width: 2000px;
+  margin: 0 auto;
+  height: 410px;
+  background-color: transparent;
+  overflow-x: hidden;
+}
+#benficios .benficios_wrapper .benficios_content .box {
+  width: 330px;
+  height: 410px;
+  margin: 5px;
+  float: left;
+  background-color: transparent;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box:first-child {
+  margin-bottom: 10px;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box {
+  width: 270px;
+  height: 140px;
+  background-color: #fff;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box .small_box_content span {
+  display: block;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box .small_box_content .titulo {
+  font-family: 'montserratbold';
+  text-align: left;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box .small_box_content .descripcion {
+  font-family: 'montserratregular';
+  font-size: 12px;
+  text-align: left;
+  margin-top: 10px;
+}
+#benficios .benficios_wrapper .benficios_content .box .small_box.red {
+  background-color: #e9342c;
+  color: #fff;
+}
+#benficios .benficios_wrapper .benficios_content .box.like_cuadro {
+  background-image: url("img/cuadro1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#instructivo {
+  width: 100%;
+  height: 440px;
+  background-color: #014492;
+}
+#instructivo .item {
+  display: flex;
+}
+#instructivo .item .info_wrapper {
+  width: 280px;
+  height: 440px;
+  margin-left: 70px;
+  position: relative;
+  right: -100px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#instructivo .item .info_wrapper .info {
+  background-color: transparent;
+}
+#instructivo .item .info_wrapper .info span {
+  color: #fff;
+  display: block;
+  font-family: 'montserratsemibold';
+  font-size: 27px;
+}
+#instructivo .item .info_wrapper .info .descripcion {
+  font-family: 'montserratregular';
+  font-size: 12px;
+  margin-top: 15px;
+}
+#instructivo .item .info_wrapper .info .big_number {
+  font-size: 130px;
+  line-height: 130px;
+}
+#instructivo .item .info_wrapper .info a {
+  font-family: 'montserratregular';
+}
+#instructivo .item .imagen {
+  background-image: url("img/facebook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+}
+#faq {
+  width: 100%;
+  padding-top: 70px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+#faq .linea_azul {
+  width: 40px;
+  height: 3px;
+  background-color: #014492;
+  margin: 0 auto;
+}
+#faq .sumilla {
+  color: #939393;
+  font-family: 'montserratregular';
+  font-size: 12px;
+}
+#faq h1 {
+  font-family: 'montserratbold';
+  line-height: 10px;
+}
+#faq .faq_wrapper {
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+#faq .faq_wrapper .faq_content {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  background-color: transparent;
+  overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+#faq .faq_wrapper .faq_content .box {
+  width: 270px;
+  height: 150px;
+  margin: 5px;
+  background-color: #fff;
+  text-align: left;
+  padding: 30px;
+}
+#faq .faq_wrapper .faq_content .box span {
+  display: block;
+}
+#faq .faq_wrapper .faq_content .box .numero {
+  font-family: 'montserratbold';
+  color: #7e7f80;
+}
+#faq .faq_wrapper .faq_content .box .pregunta {
+  font-family: 'montserratbold';
+  margin-top: 12px;
+}
+#faq .faq_wrapper .faq_content .box .descripcion {
+  font-family: 'montserratregular';
+  font-size: 12px;
+  margin-top: 12px;
+}
+#faq .faq_wrapper .faq_content .box.red {
+  background-color: #f00;
+}
+#faq .faq_wrapper .faq_content .box.red span {
+  color: #fff;
+}
+#faq .faq_wrapper .faq_content .box.blue {
+  background-color: #014492;
+}
+#faq .faq_wrapper .faq_content .box.blue span {
+  color: #fff;
+}
+#faq .faq_wrapper .faq_content .box.blue .numero {
+  color: #2d5e9e;
+}
+.bloque_blanco {
+  width: 100%;
+  height: 35px;
+  position: relative;
+}
+.bloque_blanco .bloque_arrow {
+  width: 60px;
+  height: 50px;
+  display: block;
+  position: absolute;
+  right: 100px;
+  top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #014492;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+footer {
+  width: 100%;
+  min-height: 129px;
+  display: flex;
+}
+footer .bloque1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .bloque1 a {
+  color: #014492;
+  display: block;
+  text-decoration: none;
+  font-family: 'montserratbold';
+  font-size: 22px;
+  line-height: 25px;
+  text-align: left;
+}
+footer .bloque2 {
+  flex: 1;
+  color: #fff;
+  background-color: #e9342c;
+  align-items: center;
+  display: flex;
+}
+footer .bloque2 span {
+  margin: 10px;
+}
+footer .bloque2 div {
+  text-align: left;
+}
+footer .bloque2 .links {
+  margin-left: 60px;
+}
+footer .bloque2 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'montserratregular';
+}

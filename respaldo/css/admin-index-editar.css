@@ -1,0 +1,24 @@
+#crear .editar .vista img {
+	width: 100%;
+	display: block;
+}
+
+#crear .editar .previo {
+	/* width: 240px;
+	height: 240px; */
+	outline: 1px solid blue;
+	/* overflow: hidden; */
+}
+
+#crear .editar img {
+	outline: 1px solid red;
+}
+
+#crear .editar .previo canvas {
+	max-width: 480px;
+	display: block;
+}
+
+#crear .editar #ver {
+	max-width: 100%;
+}

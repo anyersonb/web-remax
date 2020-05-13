@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html>
+  <head prefix="og:http://ogp.me/ns#">
+    <title>Prueba - Streaming desde la web - para Clientes</title>
+
+
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.0/sanitize.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.3.5/tailwind.min.css" />
+
+	  <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--=== All Plugins CSS ===-->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <!--=== All Vendor CSS ===-->
+    <link href="assets/css/vendor.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta property="og:url" content="https://content.jwplatform.com/previews/I8p2r25j-9dpQ2vOp">
+    <meta property="og:title" content="Prueba - Streaming desde la web - para Clientes">
+    <meta property="og:image" content="https://assets-jpcust.jwpsrv.com/thumbs/I8p2r25j-720.jpg">
+    <meta property="og:description" content="Prueba - Streaming desde la web - para Clientes">
+    <meta property="og:type" content="video">
+    <meta property="og:video" content="">
+    <meta property="og:video:secure_url" content="">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="640">
+    <meta property="og:video:height" content="360">
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:player" content="https://content.jwplatform.com/players/I8p2r25j-9dpQ2vOp.html">
+    <meta name="twitter:player:width" content="640">
+    <meta name="twitter:player:height" content="360">
+    <meta name="twitter:player:stream" content="https://content.jwplatform.com/videos/I8p2r25j-640.mp4">
+    <meta name="twitter:player:stream:content_type" content="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+    <style type="text/css">
+        body { background: #000; color: #FFF; margin: 0 auto; padding: 0; overflow: hidden }
+        #title, #description { display: none; font-weight: normal; -webkit-font-smoothing: antialiased }
+        #title { font-size: 24px; margin: 40px auto 10px }
+        #description { color: #aab4c8; font-size: 14px; margin: 15px auto }
+    </style>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript">
+    </script>
+
+    <link rel="stylesheet" href="expositor.css"/>
+
+  </head>
+  <body class="preloader-active">
+
+	  <header class="header-area-wrapper transparent-header sticky-header">
+
+		<div class="container-fluid">
+            <div class="row">
+
+                <!-- Start Logo Area Wrap -->
+                <div class="col-6 col-lg-2">
+                    <a href="#" class="logo-wrap d-block">
+                         <img width="188" height="34" src="assets/img/logo.svg" alt="White Logo"/>
+                    <img width="188" height="34" src="assets/img/logo.svg" class="sticky-logo" alt="white Logo"/>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+	<div class="get-app-now-wrapper parallaxBg bg-img" data-bg="assets/img/slider/bg1.jpg">
+    <div class="content h-100">
+
+
+
+
+
+
+        <div class="row align-items-center h-100">
+            <div class="col-12 my-auto text-center">
+                <div class="get-app-now-content">
+                    <h2>Prueba - Streaming desde la web - para nuestros Clientes<img width="60px" src="assets/img/slider/line.png" /></h2>
+
+    <div id="botr_I8p2r25j_9dpQ2vOp_div"></div>
+
+
+    <p id="description"></p>
+    <script>
+        (function() {
+            var head = document.head;
+            var script;
+            function setupPlayer(w, h) {
+                if (script) return;
+                script = document.createElement('script');
+                script.async = 1;
+                script.src = "https://content.jwplatform.com/players/I8p2r25j-9dpQ2vOp.js";
+                head.appendChild(script);
+                if (w && h) {
+                    var interval = setInterval(function() {
+                        var jwplayer = window.jwplayer;
+                        if (jwplayer && jwplayer('botr_I8p2r25j_9dpQ2vOp_div')) {
+                            clearInterval(interval);
+                            jwplayer('botr_I8p2r25j_9dpQ2vOp_div').on('ready', function(){this.resize(w, h);});
+                        }
+                    }, 100);
+                }
+            }
+            function setMeta(name, value) {
+                var meta = window.document.querySelector('meta[property="' + name + '"]');
+                if (!meta) {
+                    meta = document.createElement('meta');
+                    meta.setAttribute('property', name);
+                    head.appendChild(meta);
+                }
+                meta.setAttribute('content', value);
+            }
+            if (window === window.top) {
+
+                document.getElementById("description").style.display = "block";
+                document.body.style.width = "100%";
+                document.body.style.overflow = "visible";
+                setupPlayer();
+            } else {
+                var w = 0;
+                var h = 0;
+                /** Used to pass play/pause messages parent iframe via postMessage **/
+                window.addEventListener("message", function(evt) {
+                    var player = window.jwplayer ? window.jwplayer('botr_I8p2r25j_9dpQ2vOp_div') : null;
+                    switch (evt.data) {
+                        case "play" && player:
+                            player.play();
+                            break;
+                        case "pause" && player:
+                            player.pause();
+                            break;
+                        default:
+                            if (evt.data.type && evt.data.type === 'page-meta' && !script) {
+                                setMeta('og:description', evt.data.description);
+                                setMeta('og:title', evt.data.title);
+                                setupPlayer(w, h);
+                            }
+                    }
+                });
+                window.addEventListener('load', function() {
+                    setTimeout(function() {setupPlayer(w, h);}, 100);
+                });
+            }
+        }());
+    </script>
+
+
+
+				</div>
+            </div>
+        </div>
+        <div class="mensajes">
+	        <div id="caja-mensajes">
+
+			</div>
+        </div>
+    </div>
+</div>
+
+
+	  <footer><div class="footer-bottom-area">
+            <div class="container">
+                <div class="align-items-center">
+                    <div class="text-center">
+                        <div class="footer-copyright-area text-center">
+                            <p style="color: #4c4c4c">Streaming desde la web - Stringnet - All Rights Reserved 2020.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+	</footer>
+	  <!--=======================Javascript============================-->
+    <!--=== All Vendor Js ===-->
+    <script src="assets/js/vendor.js"></script>
+    <!--=== All Plugins Js ===-->
+    <script src="assets/js/plugins.js"></script>
+    <!--=== Active Js ===-->
+    <script src="assets/js/active.js"></script>
+
+    <!--=== Revolution Slider Js ===-->
+    <script src="assets/js/revslider/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/js/revslider/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+        <script src="assets/js/revslider/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/js/revslider/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/js/revslider/extensions/revolution.extension.video.min.js"></script>
+
+
+    <script src="assets/js/revslider/revslider-active.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=setImmediate%2Cdefault%2Ces2015%2Ces2016%2Ces2017%2Ces2018%2Ces2019%2Ces5%2Ces6%2Ces7"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+	<script src="expositor.js" defer></script>
+  </body>
+</html>

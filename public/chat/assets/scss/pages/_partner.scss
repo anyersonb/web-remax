@@ -1,0 +1,53 @@
+/*===========================
+58. Start Partner Single Item
+===============================*/
+.partner-item {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 50px;
+  padding-bottom: 48px;
+
+  &:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.shop-partner {
+  margin-top: -50px;
+
+  @media #{$sm-device} {
+    margin-top: -30px;
+  }
+
+  .partner-item {
+    margin-top: 50px;
+
+    @media #{$sm-device} {
+      margin-top: 30px;
+    }
+
+    &__logo {
+      min-height: 85px;
+      display: flex;
+
+      img {
+        align-self: center;
+      }
+    }
+  }
+}

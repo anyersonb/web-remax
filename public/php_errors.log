@@ -1,0 +1,4 @@
+[12-Sep-2019 15:22:09 America/Lima] PHP Notice:  Undefined index: p in F:\Proyectos\Anuncios\aplicacion\easyanuncios\public\info.php on line 9
+[12-Sep-2019 15:22:09 America/Lima] PHP Stack trace:
+[12-Sep-2019 15:22:09 America/Lima] PHP   1. {main}() F:\Proyectos\Anuncios\aplicacion\easyanuncios\public\info.php:0
+[12-Sep-2019 15:23:16 America/Lima] PHP Parse error:  syntax error, unexpected '<', expecting end of file in F:\Proyectos\Anuncios\aplicacion\easyanuncios\public\info.php on line 12

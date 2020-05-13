@@ -1,0 +1,72 @@
+/*=========================
+06. Start Page Header Area
+===========================*/
+.page-header-wrapper {
+  .page-header-content {
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+    @media #{$md-device} {
+      height: 220px;
+    }
+
+    @media #{$sm-device} {
+      height: 160px;
+    }
+
+    h1 {
+      font-size: 60px;
+      line-height: 1;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-bottom: 0;
+
+      @media #{$md-device} {
+        font-size: 50px;
+      }
+
+      @media #{$sm-device} {
+        font-size: 35px;
+      }
+    }
+
+    &.layout--2 {
+      color: $white;
+      margin-top: 90px;
+      height: 400px;
+
+      @media #{$md-device} {
+        height: 220px;
+        margin-top: 70px;
+      }
+
+      @media #{$sm-device} {
+        height: 160px;
+        margin-top: 70px;
+      }
+
+      h1 {
+        color: $white;
+      }
+    }
+  }
+}
+
+.page-header-1{
+  position: relative;
+  z-index: 1;
+
+  &:before{
+    background: rgb(17,151,141);
+    background: linear-gradient(90deg, rgba(17,151,141,1) 0%, rgba(9,36,131,1) 100%);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.9;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}

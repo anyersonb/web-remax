@@ -1,0 +1,16 @@
+.item{
+	margin-bottom: 1rem;
+}
+
+.item--nombre{
+	font-weight: bold;
+	display: block;
+}
+
+.item--texto{
+	display: block;
+}
+
+.oculto{
+	display: none;
+}

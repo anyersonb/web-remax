@@ -1,0 +1,27 @@
+{
+	"name": "interactive/easyanuncios",
+	"type": "project",
+	"license": "MIT",
+	"authors": [{
+		"name": "Joffré Sánchez",
+		"email": "blashstar@gmail.com"
+	}],
+	"prefer-stable": true,
+	"minimum-stability": "beta",
+	"require": {
+		"facebook/php-business-sdk": "^4.0",
+		"kevinlebrun/slug.php": "^1.0",
+		"phalcon-ext/mailer": "^2.1",
+		"symfony/polyfill-iconv": "^1.12",
+		"paypal/rest-api-sdk-php": "dev-master",
+		"symfony/polyfill-php72": "^1.12",
+		"nette/utils": "^3.0",
+		"guzzlehttp/guzzle": "^6.4",
+		"mashape/unirest-php": "^3.0"
+	},
+	"require-dev": {
+		"fabfuel/prophiler": "~1.0",
+		"milankyncl/phalcon-debugbar": "dev-master",
+		"snowair/phalcon-debugbar": "dev-master"
+	}
+}
